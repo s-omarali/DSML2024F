@@ -1,0 +1,62 @@
+Different Types of attacks:
+
+Normal Connection
+b'normal.': This label indicates a normal network connection with no malicious activity.
+
+Denial-of-Service (DoS) Attacks
+Denial-of-Service attacks aim to make a machine or network resource unavailable to its intended users by overwhelming it with a flood of illegitimate requests.
+
+b'neptune.': A DoS attack using SYN flood.
+b'smurf.': A DoS attack using ICMP echo requests to flood a target.
+b'back.': A DoS attack against a web server.
+b'teardrop.': A DoS attack that exploits overlapping IP fragments.
+b'pod.': A DoS attack known as "Ping of Death" that sends malformed or oversized packets to a target.
+
+Probing (Probe) Attacks
+Probing attacks involve surveillance and other probing activities to gather information about a network or system.
+
+b'portsweep.': A probing attack that scans multiple ports on a single host to find open ports.
+b'ipsweep.': A probing attack that scans multiple IP addresses to find active hosts.
+b'nmap.': A probing attack using the Nmap tool to scan for open ports and services.
+
+
+Remote-to-Local (R2L) Attacks
+Remote-to-Local attacks involve unauthorized access from a remote machine to a local machine.
+
+b'warezclient.': An R2L attack involving unauthorized access to a system to download pirated software.
+b'warezmaster.': An R2L attack involving unauthorized access to a system to upload pirated software.
+User-to-Root (U2R) Attacks
+User-to-Root attacks involve unauthorized access to local superuser (root) privileges.
+
+b'satan.': A U2R attack using the SATAN tool to find vulnerabilities in a network.
+Summary of Labels
+Label	Description
+b'normal.'	Normal network connection
+b'neptune.'	DoS attack using SYN flood
+b'smurf.'	DoS attack using ICMP echo requests
+b'back.'	DoS attack against a web server
+b'teardrop.'	DoS attack exploiting overlapping IP fragments
+b'pod.'	DoS attack known as "Ping of Death"
+b'portsweep.'	Probing attack scanning multiple ports on a single host
+b'ipsweep.'	Probing attack scanning multiple IP addresses
+b'nmap.'	Probing attack using the Nmap tool
+b'warezclient.'	R2L attack involving unauthorized access to download pirated software
+b'warezmaster.'	R2L attack involving unauthorized access to upload pirated software
+b'satan.'	U2R attack using the SATAN tool to find vulnerabilities in a network
+
+These labels help in identifying and categorizing different types of network connections and attacks, which is essential for building and evaluating intrusion detection systems.
+
+Summary of Labels
+Label	Description
+b'normal.'	Normal network connection
+b'neptune.'	DoS attack using SYN flood
+b'smurf.'	DoS attack using ICMP echo requests
+b'back.'	DoS attack against a web server
+b'teardrop.'	DoS attack exploiting overlapping IP fragments
+b'pod.'	DoS attack known as "Ping of Death"
+b'portsweep.'	Probing attack scanning multiple ports on a single host
+b'ipsweep.'	Probing attack scanning multiple IP addresses
+b'nmap.'	Probing attack using the Nmap tool
+b'warezclient.'	R2L attack involving unauthorized access to download pirated software
+b'warezmaster.'	R2L attack involving unauthorized access to upload pirated software
+b'satan.'	U2R attack using the SATAN tool to find vulnerabilities in a network
